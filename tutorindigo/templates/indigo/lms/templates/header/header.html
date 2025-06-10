@@ -45,6 +45,7 @@ from openedx.core.djangoapps.site_configuration import helpers as configuration_
 
 <%block name="js_extra">
   <script src="${static.url('js/responsive-nav.js')}"></script>
+  <script src="${static.url('js/tct-overrides.js')}"></script>
 </%block>
 
 <header class="global-header ${'slim' if course else ''}">
